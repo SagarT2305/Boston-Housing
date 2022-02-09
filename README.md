@@ -6,10 +6,11 @@ Problem Statement: Price prediction
 
 Steps involved into developing this model
 
-1. Missing data treatment.
-2. Pre-processing on data such as One Hot Encoding for categorical columns and Standardization for continuous columns.
-3. Diving the dataset into training and testing sets.
-4. Checking correlation with other columns in the dataset and perform Feature Selection to get best features for the model.
+1. Remove Columns with unique values
+2. Missing data treatment.
+3. Pre-processing on data such as One Hot Encoding for categorical columns and Standardization for continuous columns.
+4. Diving the dataset into training and testing sets.
+5. Checking correlation with other columns in the dataset and perform Feature Selection to get best features for the model.
 
 
 Models used for predictions:
